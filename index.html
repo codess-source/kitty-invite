@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Cordially Invited!</title>
+    <link rel="icon" href="media/cheers.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+         <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <center> <strong>🎉Ladies Luncheon!🎉</strong>
+                         <p>
+                            The time has come to gather for a delightful afternoon at our upcoming Kitty Party!<br><br>
+
+                             Date: 23-08-2023<br>
+                             Time: 2.00 P.M.<br>
+                             Venue: At my Residence <br>
+                             Dress Code: Co-ord Set
+                            
+                            </p></center>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
